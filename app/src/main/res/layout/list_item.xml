@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/EditorFieldStyle"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="@dimen/padding_list_view">
+
+    <LinearLayout
+        style="@style/ListLinearLayout">
+
+    <TextView
+            android:id="@+id/name"
+            style="@style/ListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name" />
+
+        <TextView
+            android:id="@+id/product_quantity"
+            style="@style/ListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ListLinearLayout">
+
+        <ImageButton
+            android:id="@+id/sale_button"
+            android:contentDescription="@string/euro_sign"
+            android:src="@drawable/euro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSale"/>
+
+        <TextView
+            android:id="@+id/product_price"
+            style="@style/ListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price" />
+
+        </LinearLayout>
+
+</LinearLayout>

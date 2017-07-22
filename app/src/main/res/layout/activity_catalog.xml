@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inventory.CatalogActivity">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/CatalogListView" />
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        style="@style/CatalogLinearLayout">
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            style="@style/CatalogTextView"
+            android:text="@string/the_shelves_are_empty" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            style="@style/CatalogTextView"
+            android:text="@string/add_products_click_on_add_button" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/CatalogFab"
+        android:src="@drawable/add_product" />
+
+</RelativeLayout>

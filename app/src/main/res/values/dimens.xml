@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="layout_margin_minor">5dp</dimen>
+
+    <dimen name="padding_list_view">10dp</dimen>
+
+    <dimen name="padding_general">15dp</dimen>
+
+    <dimen name="image_height">150dp</dimen>
+
+    <dimen name="quantity_text_size">40sp</dimen>
+
+</resources>

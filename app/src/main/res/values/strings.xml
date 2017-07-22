@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory</string>
+
+    <string name="clip_art_image_of_a_store">clip art image of a store</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="the_shelves_are_empty">It is a bit empty in here.</string>
+
+    <string name="add_products_click_on_add_button">Click on the Button below to add products.</string>
+
+    <string name="product_name">Product Name</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="price">Price</string>
+
+    <string name="euro_sign">euro sign</string>
+
+    <string name="image_of_product">image of product</string>
+
+    <string name="change_quantity">Change Quantity</string>
+
+    <string name="plus_one">plus one</string>
+
+    <string name="minus_one">minus one</string>
+
+    <string name="place_order">Place Order</string>
+
+    <string name="place_order_image">place order image</string>
+
+    <string name="delete_product">Delete Product</string>
+
+    <string name="trash_can">trash</string>
+
+    <string name="edit_product">Edit Product</string>
+
+    <string name="edit_sign">edit sign</string>
+
+    <string name="product_price">Price (digits)</string>
+
+    <string name="add_a_photo">Add Photo</string>
+
+    <string name="camera_icon">camera icon</string>
+
+    <string name="overview">Overview</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="current_quantity">Quantity</string>
+
+    <string name="zero">0</string>
+
+    <string name="editor_delete_product_failed">No products to delete.</string>
+
+    <string name="rows_deleted">\nrows deleted from inventory</string>
+
+    <string name="editor_activity_new_product">Add Product</string>
+
+    <string name="editor_activity_edit_product">Edit Product</string>
+
+    <string name="cannot_have_negative_quanity">Negative quantity not allowed.</string>
+
+    <string name="editor_insert_failed">Error saving the product.</string>
+
+    <string name="editor_insert_successful">Product is saved.</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_delete_product_successful">Product deleted.</string>
+
+    <string name="order_summary_subject">Inventory Order Summary</string>
+
+    <string name="restock_products_email">Restock products:</string>
+
+    <string name="quantity_email">Quantity:</string>
+
+    <string name="sale_button_pressed">Sale button pressed.</string>
+
+    <string name="product_name_required">Name is required. Product not saved.</string>
+
+    <string name="price_amount_required">Price is required. Product not saved.</string>
+
+    <string name="product_requires_quantity">Quantity is required. Product not saved.</string>
+
+    <string name="product_requires_image">Image is required. Product not saved.</string>
+
+</resources>
